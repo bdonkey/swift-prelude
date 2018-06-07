@@ -1,7 +1,7 @@
 import Frp
 import PlaygroundSupport
 import Prelude
-import UIKit
+//import UIKit
 import ValidationSemigroup
 
 let (email, pushEmail) = Event<String>.create()
@@ -65,7 +65,7 @@ pushClick(())
 pushClick(())
 
 // UIKit
-
+/*
 let view = UIView(frame: .init(x: 0, y: 0, width: 640, height: 480))
 view.backgroundColor = .white
 let square = UIView(frame: .init(x: 0, y: 0, width: 50, height: 50))
@@ -92,3 +92,4 @@ Event.combine(size, location)
 }
 
 PlaygroundPage.current.liveView = view
+*/
